@@ -397,6 +397,7 @@ body{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .li-photo>h3 {
