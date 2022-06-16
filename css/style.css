@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: #212121;
     --second-text-color: #757575;
-    --acent-color: #2196F3
+    --acent-color: #2196F3;
 }
 
 *,
@@ -69,7 +69,6 @@ body{
 }
 
 .nav .nav-link {
-    text-decoration: none;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -94,7 +93,6 @@ body{
 }
 
 .contact-link {
-    text-decoration: none;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -159,8 +157,18 @@ body{
     align-items: center;
 }
 
-.privileg-title {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .privileg-list {
@@ -265,9 +273,6 @@ body{
     padding: 60px 215px;
 }
 
-.footer-logo {
-    text-decoration: none;
-}
 
 .footer-studio {
     font-family: 'Raleway';
@@ -277,19 +282,18 @@ body{
 }
 
 
+
 .footer-list {    
     margin-left: -40px;
 }
 
 .footer-item {
+    font-style: normal;
     line-height: 1.19;
     color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
 }
 
-.footer-item>a {
-    text-decoration: none;
-}
 
 .footer-item:hover,.footer-item:focus {
     color: var(--acent-color);
@@ -297,6 +301,7 @@ body{
 
 
 .footer-address>a {
+    font-style: normal;
     text-decoration: none;
     line-height: 1.7;
     color: #FFFFFF;
@@ -312,9 +317,6 @@ body{
     margin-left: 20px;
 }
 
-.title-hide{
-    display: none;
-}
 
 .portfolio-btn {
     font-family: inherit;
@@ -374,11 +376,12 @@ body{
     cursor: pointer;
 }
 
-.photo-item>img:hover {
+.photo-img:hover {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .photo-name {
+    color: var(--primary-text-color);
     padding: 0 25px;
     margin: 10px 0 5px 0;
     font-size: 18px;
