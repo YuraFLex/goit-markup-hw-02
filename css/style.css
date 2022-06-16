@@ -49,8 +49,12 @@ body{
 }
 
 
-.logo {
+.link {
     text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 /* Navigation */
@@ -58,7 +62,6 @@ body{
     display: contents;
 }
 .nav-list {
-    list-style: none;
     display: flex;
     margin-left: -250px;
 }
@@ -85,7 +88,6 @@ body{
 /* Contact */
 
 .contact-list {
-    list-style: none;
     display: flex;
 }
 
@@ -164,7 +166,6 @@ body{
 }
 
 .privileg-list {
-    list-style: none;
     display: flex;
 }
 
@@ -206,7 +207,6 @@ body{
 }
 
 .work-list {
-    list-style: none;
     display: flex;
     justify-content: center;
     margin-bottom: 95px;
@@ -236,7 +236,6 @@ body{
 }
 
 .command-list {
-    list-style: none;
     display: flex;
     justify-content: center;
 }
@@ -283,8 +282,7 @@ body{
 }
 
 
-.footer-list {
-    list-style: none;
+.footer-list {    
     margin-left: -40px;
 }
 
