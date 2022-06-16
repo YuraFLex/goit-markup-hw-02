@@ -25,7 +25,6 @@ body{
 /* Logo Company */
 .web {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 2.5;
@@ -35,7 +34,6 @@ body{
 
 .studio {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 2.5;
@@ -63,7 +61,6 @@ body{
 
 .nav .nav-link {
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
@@ -91,7 +88,6 @@ body{
 
 .contact-link {
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1;
@@ -119,7 +115,6 @@ body{
 
 .hero-title {
     width: 695px;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -135,7 +130,6 @@ body{
     height: 50px;
     border: 1px solid #2196F3;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -179,7 +173,6 @@ body{
 
 .privileg-subtitle {
     /* margin: 0 0 10px 0; */
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1;
@@ -189,8 +182,6 @@ body{
 
 .privileg-text {
     margin: 0;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -205,7 +196,6 @@ body{
 }
 
 .work-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 3;
@@ -239,7 +229,6 @@ body{
 }
 
 .command-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 3;
@@ -261,7 +250,6 @@ body{
 }
 
 .command-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -270,8 +258,6 @@ body{
 }
 
 .command-prof {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -293,7 +279,6 @@ body{
 }
 
 .footer-studio {
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 2.5;
@@ -308,26 +293,24 @@ body{
 }
 
 .footer-item {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6); 
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
 }
 
 .footer-item>a {
     text-decoration: none;
 }
 
-.footer-item:hover {
+.footer-item:hover,.footer-item:focus {
     color: #2196F3;
 }
 
+
 .footer-address>a {
     text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -357,7 +340,6 @@ body{
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -413,7 +395,6 @@ body{
 .photo-name {
     padding: 0 25px;
     margin: 10px 0 5px 0;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -423,8 +404,6 @@ body{
 .photo-about {
     padding: 0 25px;
     margin: 4px 0 15px 0;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
