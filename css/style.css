@@ -7,7 +7,7 @@
 
 body{
     margin: 0 auto;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
 }
 
@@ -28,7 +28,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 2.5;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -38,7 +38,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 2.5;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -66,7 +66,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -94,7 +94,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -118,6 +118,7 @@ body{
 }
 
 .hero-title {
+    width: 695px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -181,7 +182,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -207,7 +208,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3;
     text-align: center;
     letter-spacing: 0.03em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -241,10 +242,9 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
 }
 
 .command-list {
@@ -264,7 +264,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em; 
 }
@@ -273,7 +273,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -296,7 +296,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 2.5;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -357,7 +357,6 @@ body{
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -414,7 +413,6 @@ body{
 .photo-name {
     padding: 0 25px;
     margin: 10px 0 5px 0;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -425,7 +423,6 @@ body{
 .photo-about {
     padding: 0 25px;
     margin: 4px 0 15px 0;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
