@@ -178,7 +178,6 @@ body{
 
 .privileg-item {
     margin-right:20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .privileg-item:last-child {
@@ -186,7 +185,7 @@ body{
 }
 
 .privileg-subtitle {
-    /* margin: 0 0 10px 0; */
+    font-size: 14px;
     line-height: 1.7;
     text-transform: uppercase;
 }
@@ -208,7 +207,6 @@ body{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .work-list {
@@ -334,12 +332,18 @@ body{
     cursor: pointer;
 }
 
-
+/* 
 .portfolio-btn:hover,.portfolio-btn:focus {
     background: var(--acent-color);
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+} */
+
+.portfolio-btn.active {
+    background: var(--acent-color);
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* Portfolio */
